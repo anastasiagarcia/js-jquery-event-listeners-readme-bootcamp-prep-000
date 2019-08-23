@@ -21,10 +21,10 @@ function pressIt(){
 }
 
 function submitIt(){
-  $(document).on("submit",function(){
+  if($(document).on("submit",function=="correct"){
       alert("Your form is going to be submitted now");
       
-  
+
   });
 }
 
