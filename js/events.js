@@ -20,8 +20,13 @@ function pressIt(){
   });
 }
 
-function 
-
+function submitIt(){
+  $(document).on("submit",function(){
+    if($("input:first").val()==="correct"){
+      alert("Your")
+    }
+  })
+}
 
 $(document).ready(function(){
 getIt();
