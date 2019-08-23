@@ -1,11 +1,16 @@
 function getIt() {
-  $('p').on('click', function() {
-    alert('Hey!');
+  $("p").on("click", function() {
+    alert("Hey!");
   });
 
 }
 
-function 
+function frameIt(){
+  $("").on("load", function(){
+    
+    
+  });
+}
 
 
 
