@@ -2,8 +2,11 @@ function getIt(){
   
 }
 
-$(document).ready(function(){
+$(document).ready(getIt){
+  $("p").click(getIt);
+  alert("Hey!");
+};
 
-// call functions here
 
-});
+
+
