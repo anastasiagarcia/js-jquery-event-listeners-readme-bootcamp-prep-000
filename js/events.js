@@ -23,9 +23,10 @@ function pressIt(){
 function submitIt(){
   $(document).on("submit",function(){
     if($("input:first").val()==="correct"){
-      alert("Your")
+      alert("Your form is going to be submitted now");
+      return;
     }
-  })
+  });
 }
 
 $(document).ready(function(){
