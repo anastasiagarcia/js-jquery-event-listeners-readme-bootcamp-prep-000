@@ -5,6 +5,10 @@ function getIt() {
 
 }
 
+function 
+
+
+
 $(document).ready(function(){
 getIt();
   
