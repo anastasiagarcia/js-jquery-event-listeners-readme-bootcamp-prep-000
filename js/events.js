@@ -1,5 +1,6 @@
 function getIt(){
-  
+  $("p").click(getIt);
+  alert("Hey!");
 }
 
 $(document).ready(getIt){
