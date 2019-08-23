@@ -21,7 +21,7 @@ function pressIt(){
 }
 
 function submitIt(){
-  if($(document).on("submit",function=="correct"){
+  if($(document).on("submit",function()=="correct"){
       alert("Your form is going to be submitted now");
       
 
