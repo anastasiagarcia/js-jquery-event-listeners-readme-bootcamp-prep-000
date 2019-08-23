@@ -1,12 +1,15 @@
-function getIt(){
-  $("p").click(getIt);
-  alert("Hey!");
+function getIt() {
+  $('p').on('click', function() {
+    alert('Hey!');
+  });
+
 }
 
-$(document).ready(getIt){
-  $("p").click(getIt);
-  alert("Hey!");
+$(document).ready(function()){
+
+  
 }
+
 
 
 
