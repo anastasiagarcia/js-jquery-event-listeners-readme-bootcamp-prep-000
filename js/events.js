@@ -31,10 +31,6 @@ getIt();
 frameIt();
 pressIt();
 submitIt();
-
-
-
-  
 });
 
 
